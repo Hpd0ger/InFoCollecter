@@ -1,8 +1,5 @@
-# InFoCollecter
-针对域名/页面的接口爬取，递归模式入库
-
 ## 主要功能
-* Chromedriver实现Jsfinder，支持页面渲染
+* Chromedriver实现JSfinder，支持动态渲染页面，避免遗漏接口
 
 * 根据给出的域名，调用Jsfinder去爬取每个页面的api接口、标签，并判断爬取的接口/标签是否属于域名下资产：同域名下资产则入库后队列继续递归爬取，否则直接入库。
 
@@ -19,11 +16,9 @@
 ### 配置chromedriver
 
 下载chromedriver后放入python根目录或加入全局环境变量
-下载地址:http://npm.taobao.org/mirrors/chromedriver/ 
+下载地址:http://npm.taobao.org/mirrors/chromedriver/ 注:必须要与当前chrome浏览器的版本匹配
 
-注:必须要与当前chrome浏览器的版本匹配
-
-### 同目录下config.ini中配置Mongodb连接参数
+### 同目录下config.ini中配置Mongodb数据库，默认未授权
 ```
 [server]
 ip: 127.0.0.1
@@ -78,12 +73,12 @@ absample.baidu.com
 
 * 跟单页面爬取一样，可以选择深度爬取/单页面爬取&是否携带cookie
 ```
-python3 SubdoaminUp.py -d oppo.com -i 
+python3 InFoCollecter.py -d oppo.com -i 
 ```
 
 ![image_1dl0vvkav5sv1lnsjm7vl7are29.png-1111.3kB][4]
 
-![](https://s2.ax1x.com/2019/09/18/nTPhsU.jpg)
+
 
 
 
