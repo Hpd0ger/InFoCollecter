@@ -23,7 +23,7 @@
 
 注:必须要与当前chrome浏览器的版本匹配
 
-### 同目录下config.ini中配置config
+### 同目录下config.ini中配置Mongodb连接参数
 ```
 [server]
 ip: 127.0.0.1
