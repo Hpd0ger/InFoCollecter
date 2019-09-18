@@ -26,7 +26,7 @@
 ### 同目录下config.ini中配置config
 ```
 [server]
-ip: 222.18.158.226
+ip: 127.0.0.1
 port: 65530
 database: Baidu
 account: 
