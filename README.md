@@ -73,7 +73,7 @@ absample.baidu.com
 
 * 跟单页面爬取一样，可以选择深度爬取/单页面爬取&是否携带cookie
 ```
-python3 InFoCollecter.py -d oppo.com -i 
+python3 InFoCollecter.py -d baidu.com -i 
 ```
 
 ![image_1dl0vvkav5sv1lnsjm7vl7are29.png-1111.3kB][4]
