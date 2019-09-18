@@ -1,0 +1,10 @@
+union.baidu.com
+mssp.baidu.com
+yingxiao.baidu.com
+baiyi.baidu.com
+developer.baidu.com
+bes.baidu.com
+tongji.baidu.com
+dmp.baidu.com
+jianyi.baidu.com
+absample.baidu.com
