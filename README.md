@@ -13,6 +13,11 @@
 
 ## 配置说明
 
+### Python3.x环境
+```
+pip3 install requests pymongo bs4 selenium urllib
+```
+
 ### 配置chromedriver
 
 下载chromedriver后放入python根目录或加入全局环境变量
